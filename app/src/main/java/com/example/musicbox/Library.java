@@ -2,6 +2,7 @@ package com.example.musicbox;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Library extends AppCompatActivity {
 
+    CardView cardView;
     ImageButton imageButton;
     BottomNavigationView bottomNavigationView;
     @Override
@@ -58,6 +60,36 @@ public class Library extends AppCompatActivity {
                 }
 
                 return false;
+            }
+        });
+
+        //Liked Song
+        cardView=(CardView) findViewById(R.id.Liked_Song);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Library.this, Liked_Song.class);
+                startActivity(intent);
+            }
+        });
+
+        //My Following
+        cardView=(CardView) findViewById(R.id.My_Following);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Library.this, My_Following.class);
+                startActivity(intent);
+            }
+        });
+
+        //My Playlist
+        cardView=(CardView) findViewById(R.id.My_Playlist);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Library.this, My_Playlist.class);
+                startActivity(intent);
             }
         });
     }

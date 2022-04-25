@@ -92,7 +92,9 @@
                 android:onClick="signup"
                 android:text="See All"
                 android:textColor="#FFFFFF"
-                tools:ignore="OnClick,TouchTargetSizeCheck" />
+                tools:ignore="OnClick,TouchTargetSizeCheck"
+                android:clickable="true"
+                />
 
 
 

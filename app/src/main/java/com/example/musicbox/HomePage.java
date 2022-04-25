@@ -23,6 +23,7 @@ public class HomePage extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ImageButton imageButton;
     CardView cardView;
+    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +60,16 @@ public class HomePage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomePage.this, PlayingMusic.class);
+                startActivity(intent);
+            }
+        });
+
+        //see all albums
+        textView=(TextView) findViewById(R.id.txt_seeall1);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomePage.this, All_Albums.class);
                 startActivity(intent);
             }
         });
