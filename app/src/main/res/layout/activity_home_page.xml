@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="#151515"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Home_Page"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/navbar_1_2"
+        app:itemIconSize="35dp"
+        app:itemIconTint="#FF1F00"
+        app:itemTextColor="#FF1F00"
+        app:menu="@menu/menu_bottom_1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="929dp">
+
+
+            <ImageButton
+                android:id="@+id/button_profile"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/ic_icon_profile"
+                android:clickable="true"
+                android:onClick="profile"
+                tools:ignore="OnClick" />
+
+
+            <ImageButton
+                android:id="@+id/notifikasi_homepage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="82dp"
+                android:background="@drawable/ic_notifcation" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sampul_homepage"
+                android:layout_width="306dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="112dp"
+                app:cardCornerRadius="10dp"
+                >
+                <ImageView
+                    android:id="@+id/img_sampul_homepage"
+                    android:layout_width="306dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/gambar_contoh"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+            android:id="@+id/albums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="278dp"
+            android:text="Albums"
+            android:textColor="#ffff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_seeall1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="278dp"
+                android:layout_marginRight="27dp"
+                android:onClick="signup"
+                android:text="See All"
+                android:textColor="#FFFFFF"
+                tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+
+
+
+        <TextView
+            android:id="@+id/Recently_Played"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="466dp"
+            android:layout_alignParentTop="true"
+            android:text="Recently Played"
+            android:textColor="#ffff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_seeall2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="466dp"
+                android:layout_marginRight="27dp"
+                android:onClick="signup"
+                android:text="See All"
+                android:textColor="#FFFFFF"
+                tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+            //List lagu Recently Played
+
+            /1
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/Recently_Played_1"
+                android:layout_width="306dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="509dp"
+                android:backgroundTint="#151515"
+                android:clickable="true"
+                app:cardCornerRadius="15dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="15dp">
+
+                    <ImageView
+                        android:id="@+id/img_song1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/slider1"
+                        android:clickable="true"
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/judul_music_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Judul Lagu 1"
+                    android:textColor="#FFFF"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/artist_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="37dp"
+                    android:text="nama artis 1"
+                    android:textColor="#FFFF"
+                    android:textSize="12dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            //2
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/Recently_Played_2"
+                android:layout_width="306dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="596dp"
+                android:backgroundTint="#151515"
+                app:cardCornerRadius="15dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="15dp"
+                    >
+                    <ImageView
+                        android:id="@+id/img_song_2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/gambar_contoh"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+                    />
+                <TextView
+                    android:id="@+id/judul_music_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Judul Lagu 2"
+                    android:textColor="#FFFF"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/artist_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="37dp"
+                    android:text="nama artis 2"
+                    android:textColor="#FFFF"
+                    android:textSize="12dp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            //3
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/Recently_Played_3"
+                android:layout_width="306dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="683dp"
+                android:backgroundTint="#151515"
+                app:cardCornerRadius="15dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="15dp"
+                    >
+                    <ImageView
+                        android:id="@+id/img_song_3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/gambar_contoh"
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/judul_music_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Judul Lagu 3"
+                    android:textColor="#FFFF"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/artist_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="37dp"
+                    android:text="nama artis 3"
+                    android:textColor="#FFFF"
+                    android:textSize="12dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            //4
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/Recently_Played_4"
+                android:layout_width="306dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="770dp"
+                android:backgroundTint="#151515"
+                app:cardCornerRadius="15dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="15dp"
+                    >
+                    <ImageView
+                        android:id="@+id/img_song_4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/gambar_contoh"
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/judul_music_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Judul Lagu 4"
+                    android:textColor="#FFFF"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/artist_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="37dp"
+                    android:text="nama artis 4"
+                    android:textColor="#FFFF"
+                    android:textSize="12dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            //Albums horizontal scroll
+
+            <HorizontalScrollView
+                android:layout_width="600dp"
+                android:layout_height="132dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="315dp"
+                android:layout_marginRight="27dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <RelativeLayout
+                    android:layout_width="600dp"
+                    android:layout_height="132dp">
+
+                    //1
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_album_1"
+                        android:layout_width="143dp"
+                        android:layout_height="132dp"
+                        android:backgroundTint="#151515"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/album_1"
+                            android:layout_width="143dp"
+                            android:layout_height="132dp"
+                            android:background="@drawable/slider1" />
+                    </androidx.cardview.widget.CardView>
+
+                    //2
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_album_2"
+                        android:layout_width="143dp"
+                        android:layout_height="132dp"
+                        android:layout_marginLeft="163dp"
+                        android:backgroundTint="#151515"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/album_2"
+                            android:layout_width="143dp"
+                            android:layout_height="132dp"
+                            android:background="@drawable/slider3"
+                            android:scaleType="centerCrop" />
+                    </androidx.cardview.widget.CardView>
+
+                    //3
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_album_3"
+                        android:layout_width="143dp"
+                        android:layout_height="132dp"
+                        android:layout_marginLeft="326dp"
+                        android:backgroundTint="#151515"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/album_3"
+                            android:layout_width="143dp"
+                            android:layout_height="132dp"
+                            android:background="@drawable/gambar_contoh" />
+                    </androidx.cardview.widget.CardView>
+
+                    //4
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_album_4"
+                        android:layout_width="143dp"
+                        android:layout_height="132dp"
+                        android:layout_marginLeft="489dp"
+                        android:backgroundTint="#151515"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/album_4"
+                            android:layout_width="143dp"
+                            android:layout_height="132dp"
+                            android:background="@drawable/gambar_contoh" />
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

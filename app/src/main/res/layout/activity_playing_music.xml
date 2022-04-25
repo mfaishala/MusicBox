@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="#151515"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbar_playing_music"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/navbar_1_2"
+        app:menu="@menu/menu_bottom_2"
+        app:itemIconTint="#FF1F00"
+        app:itemIconSize="35dp"
+        app:itemTextColor="#FF1F00"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            >
+
+            <ImageButton
+                android:id="@+id/button_back_ply_music"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/ic_back"
+                android:clickable="true"
+                android:onClick="profile"
+                tools:ignore="OnClick"
+                />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        app:cardCornerRadius="120dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/slider1"
+            android:scaleType="centerCrop"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/judul_lagu_pliying"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="358dp"
+        android:text="Judul lagu"
+        android:textColor="#FFFF"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/artist_lagu_pliying"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="393dp"
+        android:text="nama artist"
+        android:textColor="#B1B1B1"
+        android:textSize="14dp"
+        android:textAlignment="center"
+        />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="595dp"
+                android:background="@drawable/shape_lyrics" />
+
+            <ImageView
+                android:layout_width="39dp"
+                android:layout_height="5dp"
+                android:background="@drawable/shape_lyrics_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="610dp"
+                />
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="19dp"
+                android:textColor="#FFFF"
+                android:text="Lyrics"
+                android:textSize="14dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="620dp"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:id="@+id/lirik_lagu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="660dp"
+                android:text="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+                android:textColor="#FFFF"
+                android:textAlignment="center"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
