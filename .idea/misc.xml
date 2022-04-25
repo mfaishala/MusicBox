@@ -36,18 +36,22 @@
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/drawable/shape_radius_15.xml" value="0.2415" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/drawable/shape_search.xml" value="0.2445" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/drawable/shapefrom.xml" value="0.2445" />
+        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_all_albums.xml" value="0.8800000000000001" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_home_page.xml" value="0.536" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_home_page1.xml" value="0.136" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_home_page_scroll.xml" value="0.547945205479452" />
-        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_library.xml" value="0.6" />
+        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_library.xml" value="0.176" />
+        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_liked_song.xml" value="0.25" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_notifications.xml" value="0.6" />
+        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_my_following.xml" value="0.25" />
+        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_my_playlist.xml" value="0.72" />
+        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_notifications.xml" value="0.2810304449648712" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_playing_music.xml" value="0.176" />
-        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_playlist_music.xml" value="0.72" />
+        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_playlist_music.xml" value="0.264" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_profile.xml" value="0.2" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_scroll.xml" value="0.6" />
-        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_search.xml" value="0.34285714285714286" />
+        <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_search.xml" value="0.536" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_setting_play_music.xml" value="0.25" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_setting_playing_music.xml" value="0.8800000000000001" />
         <entry key="..\:/UPN Veteran Jakarta/MOBPROG/MusicBox/app/src/main/res/layout/activity_splash_screen.xml" value="0.152" />

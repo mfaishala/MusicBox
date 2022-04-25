@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicBox">
         <activity
+            android:name=".All_Albums"
+            android:exported="false" />
+        <activity
+            android:name=".My_Following"
+            android:exported="false" />
+        <activity
+            android:name=".My_Playlist"
+            android:exported="false" />
+        <activity
+            android:name=".Liked_Song"
+            android:exported="false" />
+        <activity
             android:name=".Notifications"
             android:exported="false" />
         <activity

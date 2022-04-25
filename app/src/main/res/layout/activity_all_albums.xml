@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search"
+    android:background="#151515"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Search_Page"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/navbar_1_2"
+        app:menu="@menu/menu_bottom_1"
+        app:itemIconTint="#FF1F00"
+        app:itemIconSize="35dp"
+        app:itemTextColor="#FF1F00"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp">
+
+
+            <ImageButton
+                android:id="@+id/Notifikasi_search"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/ic_notifcation"
+                android:clickable="true" />
+
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/ic_back" />
+
+
+            //Album Kiri
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="750dp"
+                android:layout_marginTop="200dp"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            //Album Kanan
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="750dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="28dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="142dp"
+                    android:layout_height="132dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="285dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="120dp"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:text="Albums"
+                android:textColor="#C5C5C5"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="18dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="154dp"
+                android:text="Music, Albums, Single"
+                android:textColor="#FFFF"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

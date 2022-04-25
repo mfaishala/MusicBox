@@ -52,12 +52,11 @@
                 android:layout_width="150dp"
                 android:layout_height="18dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="154dp"
                 android:layout_marginLeft="27dp"
-                android:textColor="#FFFF"
-                android:textSize="12dp"
+                android:layout_marginTop="154dp"
                 android:text="Music, Albums, Single"
-                />
+                android:textColor="#FFFF"
+                android:textSize="12dp" />
 
             <ImageButton
                 android:id="@+id/music_notif_button"
