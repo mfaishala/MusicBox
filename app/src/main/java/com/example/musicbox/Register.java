@@ -27,7 +27,7 @@ public class Register extends AppCompatActivity {
     }
 
     public void signup (View view){
-        Intent intent = new Intent(Register.this, HomePage.class);
+        Intent intent = new Intent(Register.this, Login.class);
         startActivity (intent);
     }
 }

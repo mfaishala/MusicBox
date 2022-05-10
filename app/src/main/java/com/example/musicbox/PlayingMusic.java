@@ -8,6 +8,7 @@ import android.media.Image;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
@@ -28,11 +29,17 @@ public class PlayingMusic extends AppCompatActivity {
     MediaPlayer mediaPlayer;
     Handler handler = new Handler();
     Runnable runnable;
+    TextView textView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playing_music);
+
+        TextView textView = findViewById(R.id.judul_lagu_playing);
+        textView.setEllipsize(TextUtils.TruncateAt.MARQUEE);
+        textView.setSelected (true);
 
 
         bottomNavigationView = findViewById(R.id.navbar_playing_music);
@@ -190,4 +197,6 @@ public class PlayingMusic extends AppCompatActivity {
         ,TimeUnit.MILLISECONDS.toSeconds(duration)-
                 TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duration)));
     }
+
+
 }

@@ -122,7 +122,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/slider1"
+                            android:background="@drawable/image_playlist_01"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -165,7 +165,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/image_playlist_02"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -208,7 +208,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/image_playlist_03"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -251,7 +251,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/image_playlist_04"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -294,7 +294,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/image_playlist_06"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -337,7 +337,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/image_playlist_05"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 

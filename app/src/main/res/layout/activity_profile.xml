@@ -52,7 +52,7 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:background="@drawable/gambar_contoh"
+                    android:background="@drawable/profile_01"
                     android:scaleType="centerCrop" />
 
             </androidx.cardview.widget.CardView>
