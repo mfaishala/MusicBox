@@ -146,9 +146,8 @@
                         android:id="@+id/img_song1"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:background="@drawable/slider1"
-                        android:clickable="true"
-                        />
+                        android:background="@drawable/photo_music"
+                        android:clickable="true" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -195,7 +194,7 @@
                         android:id="@+id/img_song_2"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:background="@drawable/gambar_contoh"/>
+                        android:background="@drawable/photo_music"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -245,7 +244,7 @@
                         android:id="@+id/img_song_3"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:background="@drawable/gambar_contoh"
+                        android:background="@drawable/photo_music"
                         />
 
                 </androidx.cardview.widget.CardView>
@@ -293,7 +292,7 @@
                         android:id="@+id/img_song_4"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:background="@drawable/gambar_contoh"
+                        android:background="@drawable/photo_music"
                         />
 
                 </androidx.cardview.widget.CardView>
@@ -348,7 +347,7 @@
                             android:id="@+id/album_1"
                             android:layout_width="143dp"
                             android:layout_height="132dp"
-                            android:background="@drawable/slider1" />
+                            android:background="@drawable/photo_music" />
                     </androidx.cardview.widget.CardView>
 
                     //2
@@ -365,7 +364,7 @@
                             android:id="@+id/album_2"
                             android:layout_width="143dp"
                             android:layout_height="132dp"
-                            android:background="@drawable/slider3"
+                            android:background="@drawable/photo_music"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -383,7 +382,7 @@
                             android:id="@+id/album_3"
                             android:layout_width="143dp"
                             android:layout_height="132dp"
-                            android:background="@drawable/gambar_contoh" />
+                            android:background="@drawable/photo_music"/>
                     </androidx.cardview.widget.CardView>
 
                     //4
@@ -400,7 +399,7 @@
                             android:id="@+id/album_4"
                             android:layout_width="143dp"
                             android:layout_height="132dp"
-                            android:background="@drawable/gambar_contoh" />
+                            android:background="@drawable/photo_music" />
                     </androidx.cardview.widget.CardView>
 
                 </RelativeLayout>

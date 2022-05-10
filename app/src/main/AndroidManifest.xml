@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicBox">
         <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name=".bahan_ajaran"
+            android:exported="false" />
+        <activity
             android:name=".all_recently_played"
             android:exported="false" />
         <activity
