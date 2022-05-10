@@ -53,7 +53,7 @@
                     android:layout_width="306dp"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:background="@drawable/gambar_contoh"
+                    android:background="@drawable/gambar_home_page"
                     />
             </androidx.cardview.widget.CardView>
 
@@ -113,7 +113,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/unsplash_1" />
+                            android:src="@drawable/img_list_lagu01" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -156,7 +156,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/img_list_lagu02"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -199,7 +199,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/img_list_lagu04"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -242,7 +242,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/img_list_lagu04"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -285,7 +285,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/img_list_lagu06"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -328,7 +328,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/gambar_contoh"
+                            android:background="@drawable/img_list_lagu05"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 

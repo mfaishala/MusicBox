@@ -62,7 +62,7 @@
                     android:layout_width="306dp"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:background="@drawable/gambar_contoh"
+                    android:background="@drawable/gambar_home_page"
                     />
             </androidx.cardview.widget.CardView>
             
@@ -122,26 +122,26 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/image_playlist_01"
-                            android:scaleType="centerCrop" />
+                            android:src="@drawable/img_list_lagu01" />
+
                     </androidx.cardview.widget.CardView>
 
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="230dp"
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="5dp"
-                        android:text="Judul Lagu"
+                        android:text="The Path (ft. Agassi) [NCS Release]"
                         android:textColor="#FFFF"
                         android:textSize="14dp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="230dp"
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="25dp"
-                        android:text="Artist"
+                        android:text="Wiguez and EH!DE"
                         android:textColor="#FFFF"
                         android:textSize="12dp"
                         android:textStyle="normal" />
@@ -165,7 +165,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/image_playlist_02"
+                            android:background="@drawable/img_list_lagu02"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -174,7 +174,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="5dp"
-                        android:text="Judul Lagu"
+                        android:text="Hurt Me [NCS Release]"
                         android:textColor="#FFFF"
                         android:textSize="14dp"
                         android:textStyle="bold" />
@@ -184,7 +184,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="25dp"
-                        android:text="Artist"
+                        android:text="Evanly"
                         android:textColor="#FFFF"
                         android:textSize="12dp"
                         android:textStyle="normal" />
@@ -208,16 +208,16 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/image_playlist_03"
+                            android:background="@drawable/img_list_lagu04"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="230dp"
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="5dp"
-                        android:text="Judul Lagu"
+                        android:text="Royalty (ft. Neoni) [NCS Release]"
                         android:textColor="#FFFF"
                         android:textSize="14dp"
                         android:textStyle="bold" />
@@ -227,7 +227,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="25dp"
-                        android:text="Artist"
+                        android:text="Egzod and Maestro Chives"
                         android:textColor="#FFFF"
                         android:textSize="12dp"
                         android:textStyle="normal" />
@@ -251,16 +251,16 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/image_playlist_04"
+                            android:background="@drawable/img_list_lagu04"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="240dp"
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="5dp"
-                        android:text="Judul Lagu"
+                        android:text="Where We Started (feat. Jex) [NCS]"
                         android:textColor="#FFFF"
                         android:textSize="14dp"
                         android:textStyle="bold" />
@@ -270,7 +270,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="25dp"
-                        android:text="Artist"
+                        android:text="Lost Sky"
                         android:textColor="#FFFF"
                         android:textSize="12dp"
                         android:textStyle="normal" />
@@ -294,7 +294,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/image_playlist_06"
+                            android:background="@drawable/img_list_lagu06"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -303,7 +303,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="5dp"
-                        android:text="Judul Lagu"
+                        android:text="On and On (feat. Daniel Levi) [NCS Release]"
                         android:textColor="#FFFF"
                         android:textSize="14dp"
                         android:textStyle="bold" />
@@ -313,7 +313,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="25dp"
-                        android:text="Artist"
+                        android:text="Cartoon"
                         android:textColor="#FFFF"
                         android:textSize="12dp"
                         android:textStyle="normal" />
@@ -337,7 +337,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@drawable/image_playlist_05"
+                            android:background="@drawable/img_list_lagu05"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -346,7 +346,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="5dp"
-                        android:text="Judul Lagu"
+                        android:text="Make Me Move (feat. Karra) [NCS]"
                         android:textColor="#FFFF"
                         android:textSize="14dp"
                         android:textStyle="bold" />
@@ -356,7 +356,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="65dp"
                         android:layout_marginTop="25dp"
-                        android:text="Artist"
+                        android:text="Culture Code"
                         android:textColor="#FFFF"
                         android:textSize="12dp"
                         android:textStyle="normal" />

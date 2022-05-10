@@ -108,7 +108,7 @@
                             android:id="@+id/img_song1"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:background="@drawable/slider1" />
+                            android:background="@drawable/recentlyplayed_3" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -118,7 +118,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="15dp"
-                        android:text="Judul Lagu 1"
+                        android:text="In My Head (feat. Britt Lari)"
                         android:textColor="#FFFF"
                         android:textSize="14dp" />
 
@@ -128,7 +128,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="37dp"
-                        android:text="nama artis 1"
+                        android:text="Arcando"
                         android:textColor="#FFFF"
                         android:textSize="12dp" />
 
@@ -153,7 +153,7 @@
                             android:id="@+id/img_song2"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:background="@drawable/slider1" />
+                            android:background="@drawable/recentlyplayed_1" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -163,7 +163,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="15dp"
-                        android:text="Judul Lagu 1"
+                        android:text="Electric (feat. Robbie Rosen)"
                         android:textColor="#FFFF"
                         android:textSize="14dp" />
 
@@ -173,7 +173,7 @@
                         android:layout_height="20dp"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="37dp"
-                        android:text="nama artis 1"
+                        android:text="Vaance and Deerock"
                         android:textColor="#FFFF"
                         android:textSize="12dp" />
 

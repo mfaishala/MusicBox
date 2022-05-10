@@ -40,11 +40,14 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="418dp"
-            android:text="Lorem Ipsum"
+            android:singleLine="true"
+            android:text="On and On (feat. Daniel Levi) [NCS Release]"
             android:textAlignment="center"
             android:textColor="#FFFF"
             android:textSize="22dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+
+            />
 
         <TextView
             android:layout_width="200dp"
@@ -52,11 +55,10 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="448dp"
-            android:text="Lorem Ipsum"
-            android:textColor="#FFFF"
-            android:textSize="13dp"
+            android:text="Cartoon"
             android:textAlignment="center"
-            />
+            android:textColor="#FFFF"
+            android:textSize="13dp" />
 
         <TextView
             android:layout_width="156dp"

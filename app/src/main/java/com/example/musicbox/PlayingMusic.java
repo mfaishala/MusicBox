@@ -87,7 +87,7 @@ public class PlayingMusic extends AppCompatActivity {
         btpause = findViewById(R.id.btpause);
         btnext = findViewById(R.id.btnext);
 
-        mediaPlayer = MediaPlayer.create(this,R.raw.tulus_hati_hati_dijalan);
+        mediaPlayer = MediaPlayer.create(this,R.raw.cartoon_on_and_one);
 
         runnable = new Runnable() {
             @Override

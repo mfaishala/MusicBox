@@ -69,7 +69,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="358dp"
                 android:singleLine="true"
-                android:text="Superhero (feat. Chris Linton) dsadasdasdasdasdasdsadasdasdasdasdasdadas"
+                android:text="On and On (feat. Daniel Levi) [NCS Release]"
                 android:textAlignment="center"
                 android:textColor="#FFFF"
                 android:textSize="20dp"
@@ -81,7 +81,7 @@
                 android:layout_height="36dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="393dp"
-                android:text="Unknown Brain"
+                android:text="Cartoon"
                 android:textAlignment="center"
                 android:textColor="#B1B1B1"
                 android:textSize="17dp" />

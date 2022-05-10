@@ -159,7 +159,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Judul Lagu 1"
+                    android:text="On and On (feat. Daniel Levi)"
                     android:textColor="#FFFF"
                     android:textSize="14dp" />
 
@@ -169,7 +169,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="37dp"
-                    android:text="nama artis 1"
+                    android:text="Cartoon"
                     android:textColor="#FFFF"
                     android:textSize="12dp" />
 
@@ -209,7 +209,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Judul Lagu 2"
+                    android:text="A Day at Sea [NCS Release]"
                     android:textColor="#FFFF"
                     android:textSize="14dp" />
 
@@ -219,7 +219,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="37dp"
-                    android:text="nama artis 2"
+                    android:text="Everen Maxwell"
                     android:textColor="#FFFF"
                     android:textSize="12dp"
                     />
@@ -258,7 +258,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Judul Lagu 3"
+                    android:text="You Did Me Wrong [NCS Release]"
                     android:textColor="#FFFF"
                     android:textSize="14dp" />
 
@@ -268,7 +268,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="37dp"
-                    android:text="nama artis 3"
+                    android:text="Cajama"
                     android:textColor="#FFFF"
                     android:textSize="12dp" />
 
@@ -306,7 +306,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="15dp"
-                    android:text="Judul Lagu 4"
+                    android:text="Moments [NCS Release]"
                     android:textColor="#FFFF"
                     android:textSize="14dp" />
 
@@ -316,7 +316,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginTop="37dp"
-                    android:text="nama artis 4"
+                    android:text="Lost Identities x Robbie Rosen"
                     android:textColor="#FFFF"
                     android:textSize="12dp" />
 
@@ -350,7 +350,7 @@
                             android:id="@+id/album_1"
                             android:layout_width="143dp"
                             android:layout_height="132dp"
-                            android:background="@drawable/g_2"
+                            android:background="@drawable/album_01"
                             />
                     </androidx.cardview.widget.CardView>
 
@@ -368,7 +368,7 @@
                             android:id="@+id/album_2"
                             android:layout_width="143dp"
                             android:layout_height="132dp"
-                            android:background="@drawable/g_3"
+                            android:background="@drawable/album_02"
                             android:scaleType="centerCrop" />
                     </androidx.cardview.widget.CardView>
 
@@ -386,7 +386,7 @@
                             android:id="@+id/album_3"
                             android:layout_width="143dp"
                             android:layout_height="132dp"
-                            android:background="@drawable/g_4"/>
+                            android:background="@drawable/album_04"/>
                     </androidx.cardview.widget.CardView>
 
                     //4
@@ -403,7 +403,7 @@
                             android:id="@+id/album_4"
                             android:layout_width="143dp"
                             android:layout_height="132dp"
-                            android:background="@drawable/g_5" />
+                            android:background="@drawable/album_03" />
                     </androidx.cardview.widget.CardView>
 
                 </RelativeLayout>
