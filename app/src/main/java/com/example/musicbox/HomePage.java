@@ -74,6 +74,15 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
+        textView=(TextView) findViewById(R.id.txt_seeall2);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomePage.this, all_recently_played.class);
+                startActivity(intent);
+            }
+        });
+
 
         bottomNavigationView.setOnItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

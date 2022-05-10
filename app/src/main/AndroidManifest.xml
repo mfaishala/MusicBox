@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicBox">
         <activity
+            android:name=".all_recently_played"
+            android:exported="false" />
+        <activity
             android:name=".All_Albums"
             android:exported="false" />
         <activity
@@ -34,9 +37,6 @@
             android:exported="false" />
         <activity
             android:name=".Setting_Play_Music"
-            android:exported="false" />
-        <activity
-            android:name=".Setting_Playing_Music"
             android:exported="false" />
         <activity
             android:name=".Library"

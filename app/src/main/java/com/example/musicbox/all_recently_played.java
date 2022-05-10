@@ -7,19 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class All_Albums extends AppCompatActivity {
+public class all_recently_played extends AppCompatActivity {
 
     ImageButton imageButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_all_albums);
+        setContentView(R.layout.activity_all_recently_played);
 
-        imageButton=(ImageButton) findViewById(R.id.back_all_albums);
+
+        imageButton=(ImageButton) findViewById(R.id.back_recently_played);
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(All_Albums.this, HomePage.class);
+                Intent intent = new Intent(all_recently_played.this, HomePage.class);
                 startActivity(intent);
             }
         });

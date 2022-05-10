@@ -42,13 +42,15 @@
 
 
             <ImageButton
+                android:id="@+id/back_search"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="27dp"
                 android:layout_marginTop="35dp"
-                android:background="@drawable/ic_back" />
+                android:background="@drawable/ic_back"
+                android:clickable="true" />
 
 
             //Album Kiri

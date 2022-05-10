@@ -30,25 +30,16 @@
 
 
             <ImageButton
-                android:id="@+id/Notifikasi_search"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="35dp"
-                android:layout_marginRight="27dp"
-                android:background="@drawable/ic_notifcation"
-                android:clickable="true" />
-
-
-            <ImageButton
+                android:id="@+id/back_all_albums"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="27dp"
                 android:layout_marginTop="35dp"
-                android:background="@drawable/ic_back" />
+                android:background="@drawable/ic_back"
+                android:clickable="true"
+                />
 
 
             //Album Kiri

@@ -29,25 +29,17 @@
             android:layout_height="900dp">
 
             <ImageButton
+                android:id="@+id/back_plylist"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:background="@drawable/ic_back"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="35dp"
                 android:layout_marginLeft="27dp"
-                />
-
-            <ImageButton
-                android:id="@+id/button_notif_plylist"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="35dp"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="27dp"
-                android:background="@drawable/ic_notifcation"
                 android:clickable="true"
                 />
+
+
 
             <androidx.cardview.widget.CardView
                 android:layout_width="306dp"
