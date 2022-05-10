@@ -41,8 +41,7 @@
                 android:background="@drawable/ic_back"
                 android:clickable="true"
                 android:onClick="profile"
-                tools:ignore="OnClick"
-                />
+                tools:ignore="OnClick" />
 
 
 
@@ -125,6 +124,72 @@
                 android:textColor="#FFFF"
                 android:textAlignment="center"
                 />
+
+            <SeekBar
+                android:layout_width="280dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="440dp"
+                android:max="@integer/material_motion_duration_long_1"
+                android:progress="0"
+                android:thumb="@drawable/ic_thumb"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="465dp"
+                android:layout_marginLeft="45dp"
+                android:textStyle="bold"
+                android:text="00:00"
+                android:textColor="#393E46"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="465dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="45dp"
+                android:textStyle="bold"
+                android:text="00:00"
+                android:textColor="#393E46"
+                />
+
+            <ImageButton
+                android:layout_width="69dp"
+                android:layout_height="69dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/ic_resume_button" />
+
+            <ImageButton
+                android:layout_width="69dp"
+                android:layout_height="69dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/ic_pause_button" />
+
+            <ImageButton
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="68dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="512dp"
+            android:background="@drawable/ic_rewind_button" />
+
+            <ImageButton
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="68dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="512dp"
+                android:background="@drawable/ic_next_button" />
 
         </RelativeLayout>
     </ScrollView>

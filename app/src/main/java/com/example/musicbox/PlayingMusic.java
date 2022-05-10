@@ -52,7 +52,7 @@ public class PlayingMusic extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(PlayingMusic.this, PlaylistMusic.class);
+                Intent intent = new Intent(PlayingMusic.this, HomePage.class);
                 startActivity(intent);
             }
         });
